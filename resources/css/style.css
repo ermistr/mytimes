@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: mediumaquamarine;
+  padding: 0 30px;
+}
+.logo img {
+  margin: auto 25px;
+}
+
+nav {
+  display: flex;
+}
