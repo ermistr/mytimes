@@ -1,21 +1,33 @@
 header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  width: 100%;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-items: center;
-  width: 100%;
+  border-bottom: black 1px solid;
 }
 .logo {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   color: mediumaquamarine;
   padding: 0 30px;
 }
 .logo img {
   margin: auto 25px;
 }
-
-nav {
-  display: flex;
+header nav {
+  padding-right: 50px;
+}
+header nav span {
+  display: inline-block;
+  padding: 10px 10px;
+  color: black;
+}
+body {
+  margin: 0;
 }
