@@ -122,9 +122,20 @@ header nav span, a {
 }
 .teaser {
   display: block;
-  padding: 16px auto;
+  margin: 0;
+  border-bottom: black 1px solid;
+  background-color: whitesmoke;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px 20px;
+  text-align: left;
+  color: dimgray;
 }
-.trending {
+.trending h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 .trending img {
   padding: 16px;
