@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+/*** Header ***/
 header {
   display: flex;
   align-items: center;
@@ -5,6 +9,7 @@ header {
   height: 85px;
   width: 100%;
   position: fixed;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -28,6 +33,44 @@ header nav span, a {
   padding: 10px 10px;
   color: black;
 }
-body {
-  margin: 0;
+/***Main Content Area***/
+.column {
+  border: black 1px dot;
+  display: flex;
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px
+}
+.column.small {
+  width: 240px;
+}
+.content {
+  border: red 2px solid;
+  display: flex;
+  padding-top: 116px;
+}
+.feature {
+  border: green 2px solid;
+  padding: 15px 0;
+}
+.article {
+  border: blue 2px solid;
+  padding: 15px 0;
+}
+.overlay {
+  border: purple 2px dashed;
+}
+.trending {
+  border: purple 2px solid;
+}
+.trending img {
+  padding: 16px;
+}
+.teaser {
+  display: block;
+  padding: 16px auto;
 }
