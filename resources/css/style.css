@@ -71,9 +71,9 @@ header nav span, a {
   display: flex;
   justify-content: space-around;
   padding: 116px 15px auto 15px;
+  width: 100%;
 }
 .feature {
-  padding: 15px 0;
   width: 630px;
 }
 .feature.overlay {
@@ -81,8 +81,8 @@ header nav span, a {
   background-size: cover;
   display: flex;
   align-items: center;
+  text-align: center;
   font-size: 40px;
-  padding-left: 20px;
   height: 300px;
   width: 100%;
 }
